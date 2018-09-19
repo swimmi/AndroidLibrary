@@ -27,24 +27,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true">
 
-            <ImageButton
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:background="?android:selectableItemBackground"
-                android:src="@drawable/ic_collapse" />
-
-            <ImageButton
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:background="?android:selectableItemBackground"
-                android:src="@drawable/ic_code" />
-
-            <ImageButton
-                android:id="@+id/ib_collapse"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:background="?android:selectableItemBackground"
-                android:src="@drawable/ic_collapse" />
 
         </LinearLayout>
 

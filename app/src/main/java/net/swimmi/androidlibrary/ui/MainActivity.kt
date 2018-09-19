@@ -33,9 +33,6 @@ class MainActivity : BaseActivity() {
         rv_main.adapter = mAdapter
         rv_main.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
-        ib_collapse.setOnClickListener {
-            this.onBackPressed()
-        }
     }
 
     fun showTreasure(treasure: Treasure) {
