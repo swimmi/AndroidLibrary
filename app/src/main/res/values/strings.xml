@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">AndroidLibrary</string>
+    <string name="app_name">安卓宝库</string>
+
+
+    <string name="input_address">输入地址</string>
+    <string name="address_info">收货信息</string>
 </resources>
