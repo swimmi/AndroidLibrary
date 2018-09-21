@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+
 /**
  * Created by swimmi on 2018/7/16.
  *
@@ -22,7 +23,8 @@ abstract class BaseFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view!!, savedInstanceState)
+        super.onViewCreated(view, savedInstanceState)
+
         initView()
     }
 
@@ -36,12 +38,12 @@ abstract class BaseFragment : Fragment() {
         }
         //可见，并且没有加载过
         if (!isFirst&&isFragmentVisible) {
-            onFragmentVisibleChange(true);
+            onFragmentVisibleChange(true)
             return;
         }
         //由可见——>不可见 已经加载过
         if (isFragmentVisible) {
-            onFragmentVisibleChange(false);
+            onFragmentVisibleChange(false)
             isFragmentVisible = false
         }
     }

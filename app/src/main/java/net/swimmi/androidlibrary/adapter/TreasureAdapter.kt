@@ -29,7 +29,7 @@ class TreasureAdapter(var context: Context, var data: List<Treasure>, var layout
     private lateinit var mItemClickListener: OnItemClickListener
 
     interface OnItemClickListener {
-        fun onItemClick(view: View, position: Int)
+        fun onItemClick(position: Int)
     }
 
     fun setItemClickListener(itemClickListener: OnItemClickListener) {
@@ -41,7 +41,7 @@ class TreasureAdapter(var context: Context, var data: List<Treasure>, var layout
         holder.setViews(context, data[position])
 
         holder.itemView.setOnClickListener {
-            mItemClickListener.onItemClick(it, position)
+            mItemClickListener.onItemClick(position)
         }
 
     }

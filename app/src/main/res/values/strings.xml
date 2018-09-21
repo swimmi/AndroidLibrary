@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">安卓宝库</string>
 
+    <string name="type">类型</string>
+    <string name="control">控件</string>
+    <string name="layout">布局</string>
+    <string name="animation">动画</string>
+    <string name="other">其他</string>
 
     <string name="input_address">输入地址</string>
     <string name="address_info">收货信息</string>
